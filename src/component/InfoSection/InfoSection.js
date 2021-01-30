@@ -2,20 +2,30 @@ import React from 'react'
 import { Container, Button } from '../../globalStyles';
 import {Link} from 'react-router-dom';
 import {
-    InfoSec, InfoRow, 
-    InfoColumn, TextWrapper,
-    TopLine, Heading,
+    InfoSec, 
+    InfoRow, 
+    InfoColumn, 
+    TextWrapper,
+    TopLine, 
+    Heading,
     Subtitle, ImgWrapper,
     Img
 } from './InfoSection.element';
 
 const InfoSection = ({ 
-    primary,lightBg, 
-    imgStart, lightTopLine, 
-    lightTextDesc,buttonLabel, 
-    description,headLine,
-    lightText,topLine,
-    img, alt, start
+    primary,
+    lightBg, 
+    imgStart, 
+    lightTopLine, 
+    lightTextDesc,
+    buttonLabel, 
+    description,
+    headLine,
+    lightText,
+    topLine,
+    img, 
+    alt, 
+    start
 }) => {
     return (
         <>
